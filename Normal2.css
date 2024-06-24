@@ -120,3 +120,46 @@ html{
     left: 380px;
     bottom: 680px;
 }
+.re1{
+    width: 80px;
+    height: 80px;
+    background-image: url('https://mywebicons.ru/i/png/1d7c3cc83fdaead5fdbea29f994ea4f6.png');
+    background-size: cover;
+    position: relative;
+    top: 30px;
+    border-color: rgb(0, 255, 0);
+    border-width: 5px;
+}
+.reg0{
+    width: 80px;
+    height: 80px;
+    font-size: 50px;
+    position: relative;
+    border: none;
+    top: 17px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 255, 0);
+}
+.promo1{
+    width: 400px;
+    position: relative;
+    bottom: 15px;
+}
+.promo2{
+    width: 400px;
+    position: relative;
+    bottom: 30px;
+}
+.kill0{
+    size: 275px;
+    height: 75px;
+}
+.kill1{
+    size: 200px;
+    height: 75px;
+}
+.jika{
+    display: flex;
+    position: relative;
+    bottom: 675px;
+}
