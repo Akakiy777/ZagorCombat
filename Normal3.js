@@ -39,13 +39,13 @@ jQuery(document).ready(function(){
         }
     });
     jQuery(".lo2").on('click',function(){
-        if (money>=10){
+        if (money>=20){
             var lol1 = '<div class="nor2">Баланс: '
             var lol2 = '<br>Кейс 0$-200$</div>'
-            money = money-10
+            money = money-20
             var lol3 = lol1+money+lol2
             jQuery('.nor2').html(lol3);
-            taber+=1
+            taber+=2
             var kol1 = '<div class="not0"> >>> '
             var kol2 = ' <<< </div>'
             var pon4 = kol1+taber+kol2
@@ -55,13 +55,13 @@ jQuery(document).ready(function(){
         }
     });
     jQuery(".lo3").on('click',function(){
-        if (money>=10){
+        if (money>=50){
             var lol1 = '<div class="nor2">Баланс: '
             var lol2 = '<br>Кейс 0$-200$</div>'
-            money = money-10
+            money = money-50
             var lol3 = lol1+money+lol2
             jQuery('.nor2').html(lol3);
-            taber+=1
+            taber+=5
             var kol1 = '<div class="not0"> >>> '
             var kol2 = ' <<< </div>'
             var pon4 = kol1+taber+kol2
