@@ -122,18 +122,15 @@ html{
 .kill1{
     size: 275px;
     height: 75px;
-    position: relative;
-    bottom: 1px;
 }
 .re1{
     width: 80px;
     height: 80px;
     background-image: url('https://mywebicons.ru/i/png/1d7c3cc83fdaead5fdbea29f994ea4f6.png');
     background-size: cover;
-    top: 30px;
     border-width: 5px;
     position: relative;
-    top: 17px;
+    top: 30px;
     border-color: rgb(0, 255, 0);
     border-width: 5px;
 }
