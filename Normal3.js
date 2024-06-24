@@ -4,7 +4,7 @@ jQuery(document).ready(function(){
     jQuery(".image-button").on('click',function(){
         jQuery('.nor2').remove();
         var lol1 = '<div class="nor2">Баланс: '
-        var lol2 = '<br>Кейс 0$-50$</div>'
+        var lol2 = '<br>Кейс 0$-200$</div>'
         money = money+taber
         var lol3 = lol1+money+lol2
         jQuery(this).parent().append(lol3)
@@ -12,9 +12,9 @@ jQuery(document).ready(function(){
     jQuery(".nor3").on('click',function(){
         jQuery('.nor2').remove();
         var lol1 = '<div class="nor2">Баланс: '
-        var lol2 = '<br>Кейс 0$-50$</div>'
+        var lol2 = '<br>Кейс 0$-200$</div>'
         if (money>=100){
-            var lopy = Math.floor(Math.random() * (200 - 50) + 50);
+            var lopy = Math.floor(Math.random() * (200 - 0) + 0);
             var lopy2 = 'Кейс открыт +'
             money = money-100+lopy
             alert(lopy2+lopy);
@@ -28,7 +28,7 @@ jQuery(document).ready(function(){
         if (money>=10){
             jQuery('.nor2').remove();
             var lol1 = '<div class="nor2">Баланс: '
-            var lol2 = '<br>Кейс 0$-50$</div>'
+            var lol2 = '<br>Кейс 0$-200$</div>'
             money = money-10
             var lol3 = lol1+money+lol2
             jQuery('.image-button').parent().append(lol3)
@@ -46,7 +46,7 @@ jQuery(document).ready(function(){
         if (money>=20){
             jQuery('.nor2').remove();
             var lol1 = '<div class="nor2">Баланс: '
-            var lol2 = '<br>Кейс 0$-50$</div>'
+            var lol2 = '<br>Кейс 0$-200$</div>'
             money = money-20
             var lol3 = lol1+money+lol2
             jQuery('.image-button').parent().append(lol3)
@@ -64,7 +64,7 @@ jQuery(document).ready(function(){
         if (money>=50){
             jQuery('.nor2').remove();
             var lol1 = '<div class="nor2">Баланс: '
-            var lol2 = '<br>Кейс 0$-50$</div>'
+            var lol2 = '<br>Кейс 0$-200$</div>'
             money = money-50
             var lol3 = lol1+money+lol2
             jQuery('.image-button').parent().append(lol3)
@@ -83,7 +83,7 @@ jQuery(document).ready(function(){
         if (promocod == "hamster"){
             jQuery('.nor2').remove();
             var lol1 = '<div class="nor2">Баланс: '
-            var lol2 = '<br>Кейс 0$-50$</div>'
+            var lol2 = '<br>Кейс 0$-200$</div>'
             money = money+5000
             var lol3 = lol1+money+lol2
             jQuery('.image-button').parent().append(lol3)
@@ -92,7 +92,7 @@ jQuery(document).ready(function(){
         if (promocod == "oleg"){
             jQuery('.nor2').remove();
             var lol1 = '<div class="nor2">Баланс: '
-            var lol2 = '<br>Кейс 0$-50$</div>'
+            var lol2 = '<br>Кейс 0$-200$</div>'
             money = money+1000
             var lol3 = lol1+money+lol2
             jQuery('.image-button').parent().append(lol3)
@@ -101,7 +101,7 @@ jQuery(document).ready(function(){
         if (promocod == "hui"){
             jQuery('.nor2').remove();
             var lol1 = '<div class="nor2">Баланс: '
-            var lol2 = '<br>Кейс 0$-50$</div>'
+            var lol2 = '<br>Кейс 0$-200$</div>'
             money = money-5000
             var lol3 = lol1+money+lol2
             jQuery('.image-button').parent().append(lol3)
@@ -113,7 +113,7 @@ jQuery(document).ready(function(){
         if (saves.length == 2) {
             jQuery('.nor2').remove();
             var lol1 = '<div class="nor2">Баланс: '
-            var lol2 = '<br>Кейс 0$-50$</div>'
+            var lol2 = '<br>Кейс 0$-200$</div>'
             money = Number(saves[0])
             var lol3 = lol1+money+lol2
             jQuery('.image-button').parent().append(lol3)
