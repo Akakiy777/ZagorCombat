@@ -48,8 +48,11 @@ html{
     font-weight: bolder;
 }
 .kill0{
-    size: 275px;
     height: 75px;
+    background-color: #ffe;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bolder;
 }
 .reg0{
     width: 80px;
@@ -57,8 +60,9 @@ html{
     font-size: 50px;
     border-width: 5px;
     position: relative;
-    top: 15px;
-    border-color: rgb(0, 255, 0);
+    top: 14px;
+    right: 62px;
+    border-color: rgb(255, 162, 0);
     border-width: 5px;
 }
 .not1{
@@ -120,8 +124,11 @@ html{
     color: rgb(0, 150, 255);
 }
 .kill1{
-    size: 275px;
     height: 75px;
+    background-color: #ffe;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bolder;
 }
 .re1{
     width: 80px;
@@ -130,7 +137,8 @@ html{
     background-size: cover;
     border-width: 5px;
     position: relative;
-    top: 30px;
-    border-color: rgb(0, 255, 0);
+    top: 26px;
+    right: 62px;
+    border-color: rgb(255, 162, 0);
     border-width: 5px;
 }
