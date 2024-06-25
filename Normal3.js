@@ -96,6 +96,62 @@ jQuery(document).ready(function(){
             jQuery('.nor2').html(lol3);
             alert('Успешно');
         }
+        if (promocod == "fuck"){
+            var lol1 = '<div class="nor2">Баланс: '
+            var lol2 = '<br>Кейс 0$-200$</div>'
+            money = money-1000
+            var lol3 = lol1+money+lol2
+            jQuery('.nor2').html(lol3);
+            alert('Успешно');
+        }
+        if (promocod == "kiss me"){
+            var lol1 = '<div class="nor2">Баланс: '
+            var lol2 = '<br>Кейс 0$-200$</div>'
+            money = money+999999
+            var lol3 = lol1+money+lol2
+            jQuery('.nor2').html(lol3);
+            alert('Успешно');
+        }
+        if (promocod == "noob"){
+            var lol1 = '<div class="nor2">Баланс: '
+            var lol2 = '<br>Кейс 0$-200$</div>'
+            money = money+3500
+            var lol3 = lol1+money+lol2
+            jQuery('.nor2').html(lol3);
+            alert('Успешно');
+        }
+        if (promocod == "akakiy"){
+            var lol1 = '<div class="nor2">Баланс: '
+            var lol2 = '<br>Кейс 0$-200$</div>'
+            money = money+25000
+            var lol3 = lol1+money+lol2
+            jQuery('.nor2').html(lol3);
+            alert('Успешно');
+        }
+        if (promocod == "pop"){
+            var lol1 = '<div class="nor2">Баланс: '
+            var lol2 = '<br>Кейс 0$-200$</div>'
+            money = money+1
+            var lol3 = lol1+money+lol2
+            jQuery('.nor2').html(lol3);
+            alert('Успешно');
+        }
+        if (promocod == "hacker"){
+            var lol1 = '<div class="nor2">Баланс: '
+            var lol2 = '<br>Кейс 0$-200$</div>'
+            money = money+5
+            var lol3 = lol1+money+lol2
+            jQuery('.nor2').html(lol3);
+            alert('Успешно');
+        }
+        if (promocod == "zagor"){
+            var lol1 = '<div class="nor2">Баланс: '
+            var lol2 = '<br>Кейс 0$-200$</div>'
+            money = money+2000
+            var lol3 = lol1+money+lol2
+            jQuery('.nor2').html(lol3);
+            alert('Успешно');
+        }
     })
     jQuery('.re1').on('click',function(){
         var saves = document.getElementById('bu2').value.split(' ')
