@@ -3,14 +3,14 @@ jQuery(document).ready(function(){
     var taber = 1
     jQuery(".image-button").on('click',function(){
         var lol1 = '<div class="nor2">Баланс: '
-        var lol2 = '<br>Кейс 0$-200$</div>'
+        var lol2 = '</div>'
         money = money+taber
         var lol3 = lol1+money+lol2
         jQuery('.nor2').html(lol3);
     });
     jQuery(".nor3").on('click',function(){
         var lol1 = '<div class="nor2">Баланс: '
-        var lol2 = '<br>Кейс 0$-200$</div>'
+        var lol2 = '</div>'
         if (money>=100){
             var lopy = Math.floor(Math.random() * (200 - 0) + 0);
             var lopy2 = 'Кейс открыт +'
@@ -25,7 +25,7 @@ jQuery(document).ready(function(){
     jQuery(".lo1").on('click',function(){
         if (money>=10){
             var lol1 = '<div class="nor2">Баланс: '
-            var lol2 = '<br>Кейс 0$-200$</div>'
+            var lol2 = '</div>'
             money = money-10
             var lol3 = lol1+money+lol2
             jQuery('.nor2').html(lol3);
@@ -41,7 +41,7 @@ jQuery(document).ready(function(){
     jQuery(".lo2").on('click',function(){
         if (money>=20){
             var lol1 = '<div class="nor2">Баланс: '
-            var lol2 = '<br>Кейс 0$-200$</div>'
+            var lol2 = '</div>'
             money = money-20
             var lol3 = lol1+money+lol2
             jQuery('.nor2').html(lol3);
@@ -57,7 +57,7 @@ jQuery(document).ready(function(){
     jQuery(".lo3").on('click',function(){
         if (money>=50){
             var lol1 = '<div class="nor2">Баланс: '
-            var lol2 = '<br>Кейс 0$-200$</div>'
+            var lol2 = '</div>'
             money = money-50
             var lol3 = lol1+money+lol2
             jQuery('.nor2').html(lol3);
@@ -74,7 +74,7 @@ jQuery(document).ready(function(){
         var promocod = document.getElementById('bu1').value
         if (promocod == "hamster"){
             var lol1 = '<div class="nor2">Баланс: '
-            var lol2 = '<br>Кейс 0$-200$</div>'
+            var lol2 = '</div>'
             money = money+5000
             var lol3 = lol1+money+lol2
             jQuery('.nor2').html(lol3);
@@ -82,7 +82,7 @@ jQuery(document).ready(function(){
         }
         if (promocod == "oleg"){
             var lol1 = '<div class="nor2">Баланс: '
-            var lol2 = '<br>Кейс 0$-200$</div>'
+            var lol2 = '</div>'
             money = money+1000
             var lol3 = lol1+money+lol2
             jQuery('.nor2').html(lol3);
@@ -90,7 +90,7 @@ jQuery(document).ready(function(){
         }
         if (promocod == "hui"){
             var lol1 = '<div class="nor2">Баланс: '
-            var lol2 = '<br>Кейс 0$-200$</div>'
+            var lol2 = '</div>'
             money = money-5000
             var lol3 = lol1+money+lol2
             jQuery('.nor2').html(lol3);
@@ -98,7 +98,7 @@ jQuery(document).ready(function(){
         }
         if (promocod == "fuck"){
             var lol1 = '<div class="nor2">Баланс: '
-            var lol2 = '<br>Кейс 0$-200$</div>'
+            var lol2 = '</div>'
             money = money-1000
             var lol3 = lol1+money+lol2
             jQuery('.nor2').html(lol3);
@@ -106,7 +106,7 @@ jQuery(document).ready(function(){
         }
         if (promocod == "kiss me"){
             var lol1 = '<div class="nor2">Баланс: '
-            var lol2 = '<br>Кейс 0$-200$</div>'
+            var lol2 = '</div>'
             money = money+999999
             var lol3 = lol1+money+lol2
             jQuery('.nor2').html(lol3);
@@ -114,7 +114,7 @@ jQuery(document).ready(function(){
         }
         if (promocod == "noob"){
             var lol1 = '<div class="nor2">Баланс: '
-            var lol2 = '<br>Кейс 0$-200$</div>'
+            var lol2 = '</div>'
             money = money+3500
             var lol3 = lol1+money+lol2
             jQuery('.nor2').html(lol3);
@@ -122,7 +122,7 @@ jQuery(document).ready(function(){
         }
         if (promocod == "akakiy"){
             var lol1 = '<div class="nor2">Баланс: '
-            var lol2 = '<br>Кейс 0$-200$</div>'
+            var lol2 = '</div>'
             money = money+25000
             var lol3 = lol1+money+lol2
             jQuery('.nor2').html(lol3);
@@ -130,7 +130,7 @@ jQuery(document).ready(function(){
         }
         if (promocod == "pop"){
             var lol1 = '<div class="nor2">Баланс: '
-            var lol2 = '<br>Кейс 0$-200$</div>'
+            var lol2 = '</div>'
             money = money+1
             var lol3 = lol1+money+lol2
             jQuery('.nor2').html(lol3);
@@ -138,7 +138,7 @@ jQuery(document).ready(function(){
         }
         if (promocod == "hacker"){
             var lol1 = '<div class="nor2">Баланс: '
-            var lol2 = '<br>Кейс 0$-200$</div>'
+            var lol2 = '</div>'
             money = money+5
             var lol3 = lol1+money+lol2
             jQuery('.nor2').html(lol3);
@@ -146,7 +146,7 @@ jQuery(document).ready(function(){
         }
         if (promocod == "zagor"){
             var lol1 = '<div class="nor2">Баланс: '
-            var lol2 = '<br>Кейс 0$-200$</div>'
+            var lol2 = '</div>'
             money = money+2000
             var lol3 = lol1+money+lol2
             jQuery('.nor2').html(lol3);
@@ -157,7 +157,7 @@ jQuery(document).ready(function(){
         var saves = document.getElementById('bu2').value.split(' ')
         if (saves.length == 2) {
             var lol1 = '<div class="nor2">Баланс: '
-            var lol2 = '<br>Кейс 0$-200$</div>'
+            var lol2 = '</div>'
             money = Number(saves[0])
             var lol3 = lol1+money+lol2
             jQuery('.nor2').html(lol3);
