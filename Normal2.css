@@ -5,12 +5,15 @@ html{
     width: 775px;
     height: 800px;
 }
-.mod1{
+.mod3{
+    position: relative;
+    left: 750px;
+    bottom: 1262px;
 }
 .mod2{
     position: relative;
     left: 375px;
-    bottom: 790px;
+    bottom: 636px;
 }
 .nor1{
     font-size: 50px;
@@ -41,6 +44,22 @@ html{
 }
 .nor3{
     width: 350px;
+    height: 75px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    background: rgb(0, 120, 50);
+    font-weight: bolder;
+}
+.no90{
+    width: 350px;
+    height: 75px;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    background: rgb(0, 120, 50);
+    font-weight: bolder;
+}
+.no09{
+    width: 175px;
     height: 75px;
     color: rgb(255, 255, 255);
     font-size: 50px;
@@ -78,7 +97,7 @@ html{
     color: rgb(208, 0, 128);
 }
 .lo1{
-    width: 390px;
+    width: 350px;
     height: 75px;
     font-size: 50px;
     background: chartreuse;
@@ -90,7 +109,7 @@ html{
     color: rgb(255, 123, 0);
 }
 .lo2{
-    width: 390px;
+    width: 350px;
     height: 75px;
     font-size: 50px;
     background: rgb(255, 255, 0);
@@ -102,7 +121,7 @@ html{
     color: rgb(255, 123, 0);
 }
 .lo3{
-    width: 390px;
+    width: 350px;
     height: 75px;
     font-size: 50px;
     background: rgb(255, 0, 0);
