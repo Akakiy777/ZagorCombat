@@ -1,19 +1,25 @@
 html{
     background-image: url('https://neftegaz.ru/upload/iblock/a0a/lerze8laou62j116u5kqj6x01f8adqd7/Depositphotos_165380252_xl_2015.jpg');
 }
+body{
+    margin: 0px;
+}
 .gera{
     width: 775px;
     height: 800px;
 }
+.mod1{
+
+}
 .mod3{
     position: relative;
     left: 750px;
-    bottom: 1262px;
+    bottom: 1120px;
 }
 .mod2{
     position: relative;
     left: 375px;
-    bottom: 636px;
+    bottom: 560px;
 }
 .nor1{
     font-size: 50px;
@@ -65,6 +71,26 @@ html{
     font-size: 50px;
     background: rgb(0, 120, 50);
     font-weight: bolder;
+}
+img{
+    height: 75px;
+    width: 20%;
+    background: rgb(0, 120, 50);
+    border: inset rgb(195, 229, 2) 4px;
+    position: fixed;
+    bottom: 0px;
+}
+.img1{
+    position: fixed;
+    left: 10%;
+}
+.img2{
+    position: fixed;
+    left: 40%;
+}
+.img3{
+    position: fixed;
+    left: 70%;
 }
 .kill0{
     height: 75px;
