@@ -5,21 +5,8 @@ body{
     margin: 0px;
 }
 .gera{
-    width: 775px;
-    height: 800px;
-}
-.mod1{
-
-}
-.mod3{
-    position: relative;
-    left: 750px;
-    bottom: 1120px;
-}
-.mod2{
-    position: relative;
-    left: 375px;
-    bottom: 560px;
+    display: grid;
+    justify-content: center;
 }
 .nor1{
     font-size: 50px;
@@ -73,24 +60,22 @@ body{
     font-weight: bolder;
 }
 img{
-    height: 75px;
-    width: 20%;
+    height: 10%;
+    width: 33%;
     background: rgb(0, 120, 50);
     border: inset rgb(195, 229, 2) 4px;
     position: fixed;
     bottom: 0px;
 }
 .img1{
-    position: fixed;
-    left: 10%;
+    left: 0px;
 }
 .img2{
-    position: fixed;
-    left: 40%;
+    width: 34%;
+    left: 33%; 
 }
 .img3{
-    position: fixed;
-    left: 70%;
+    right: 0px;
 }
 .kill0{
     height: 75px;
