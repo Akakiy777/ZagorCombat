@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>ZagorCombat</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="jquery-3.7.1.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+      <div class="block" id="item1">
+        <div class="label">Главная</div>
+        <div class="stats"><span id="balance">Баланс: 50</span></div>
+        <div class="main">
+          <button class="hamster"></button>
+        </div>
+      </div>
+      <div class="nav">
+        <a href="#item2"><button>Майнинг</button></a>
+        <a href="#item3"><button>Другое</button></a>
+      </div>
+      <div class="block" id="item2">
+        <div class="label">Майнинг</div>
+        <div class="stats"><span id="taber">>>>1<<<</span></div>
+        <div class="main">
+          <div class="cart">
+            <span>Цена 10</span><span class="right">Цена 20</span>
+            <br>
+            <button id="b1">+1 к табу</button><button class="right" id="b2">+2 к табу</button>
+          </div>
+          <div class="cart">
+            <span>Цена 50</span><span class="right">Цена 100</span>
+            <br>
+            <button id="b5">+5 к табу</button><button class="right"  id="b10">+10 к табу</button>
+          </div>
+          <div class="cart">
+            <span>Цена 200</span><span class="right">Цена 500</span>
+            <br>
+            <button id="b20">+20 к табу</button><button class="right" id="b50">+50 к табу</button>
+          </div>
+        </div>
+      </div>
+      <div class="nav">
+        <a href="#item1"><button>Главная</button></a>
+        <a href="#item3"><button>Другое</button></a>
+      </div>
+      <div class="block" id="item3">
+        <div class="label">Другое</div>
+        <div class="stats"><span>Тема:</span> <br><button class="White">Светлая</button><button class="Black">Тёмная</button>
+          <style class="back">body{background-image: url("Black.png");}.Black{border: 0.3vh coral solid;}.label{color: yellow;}.stats{color: yellow;}.stats>span{color: yellow;}.spanBTN{color: yellow;}.hamster{border: inset 1vh yellow;}.cart>span{color: yellow;}</style>
+        </div>
+        <div class="main">
+            <div class="item">
+              <input class="promo" placeholder="Промокод" id="input1"><button class="promoNBT">✔</button>
+            </div>
+            <div class="item">
+              <input class="saves" placeholder="Сохранение" id="input2"><button class="savesNBT">✔</button>
+            </div>
+            <div class="item">
+              <span class="spanBTN">Ставка Выгода X2</span>
+              <br>
+              <input class="bet" placeholder="Сумма" id="input3"><button class="betNBT">✔</button>
+            </div>   
+        </div>
+      </div>
+      <div class="nav">
+        <a href="#item1"><button>Главная</button></a>
+        <a href="#item2"><button>Майнинг</button></a>
+      </div> 
+    </body>
+</html>
