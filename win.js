@@ -7,7 +7,6 @@ $('document').ready(function(){
     });
     $('#submit').click(function(){
         alert('Приятной игры!');
-        window.open('index.html');
         window.close()
     });
 });
