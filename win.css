@@ -16,12 +16,12 @@ label{
     font-weight: bolder;
 }
 #submit{
-    width: 80%;
-    height: 5vh;
+    width: 60%;
+    height: 10vh;
     margin: 8vh;
     border: none;
     font-weight: bolder;
-    font-size: 250%;
+    font-size: 400%;
     border-radius: 1vh;
     box-shadow: black 0 0 2vh;
     background-image: url('Stone.png');
