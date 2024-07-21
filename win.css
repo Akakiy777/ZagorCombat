@@ -1,6 +1,6 @@
 .block{
     height: 70vh;
-    margin: 2vh;
+    margin: 1vh;
     box-shadow: black 0 0 3vh;
     text-align: center;
     background-color: rgba(206, 127, 8, 0.808);
@@ -27,6 +27,8 @@ label{
     background-image: url('Stone.png');
     color: chocolate;
     text-align: center;
+    position: relative;
+    right: 2vh;
 }
 body{
     background-image: url('White.png');
@@ -43,6 +45,7 @@ body{
 .stats>button{
     margin: 1vh;
     width: 30vh;
+    height: 8vh;
     box-shadow: black 0 0 5vh;
     border-radius: 2vh;
     font-weight: bolder;
