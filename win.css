@@ -27,8 +27,6 @@ label{
     background-image: url('Stone.png');
     color: chocolate;
     text-align: center;
-    position: relative;
-    right: 2vh;
 }
 body{
     background-image: url('White.png');
